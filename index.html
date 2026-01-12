@@ -1,0 +1,11 @@
+<p>The current hostname is: <span id="hostname-display"></span></p>
+<script>
+    // Get the element by its ID
+const hostnameDisplay = document.getElementById('hostname-display');
+
+// Set the text content of the element to the hostname
+if (hostnameDisplay) {
+    hostnameDisplay.textContent = window.location.hostname;
+}
+
+</script>
